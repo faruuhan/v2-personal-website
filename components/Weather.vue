@@ -1,6 +1,6 @@
 <template>
   <div
-    class="p-4 rounded-2xl aspect-square"
+    class="relative p-4 overflow-hidden rounded-2xl aspect-square"
     :class="{
       'bg-gradient-to-b from-cyan-800 to-cyan-700': time === 'Night',
       'bg-gradient-to-b from-sky-400 to-sky-300': time === 'Morning',
@@ -8,7 +8,27 @@
     }"
   >
     <h4 class="text-2xl text-white font-cursive">Good</h4>
-    <h2 class="text-2xl text-white break-words font-cursive">{{ time }}!</h2>
+    <h2 class="relative z-10 text-2xl text-white break-words font-cursive">
+      {{ time }}!
+    </h2>
+    <img
+      src="~/static/days/moon.png"
+      class="absolute -top-3 w-14 right-2"
+      alt=""
+      v-if="time === 'Night'"
+    />
+    <img
+      src="~/static/days/cloudy.png"
+      class="absolute bottom-3 w-14 right-2"
+      alt=""
+      v-if="time === 'Morning'"
+    />
+    <img
+      src="~/static/days/sun.png"
+      class="absolute z-0 top-3 w-14 right-2"
+      alt=""
+      v-if="time === 'Afternoon'"
+    />
   </div>
 </template>
 <script>
