@@ -11,6 +11,7 @@ module.exports = {
   theme: {
     fontFamily: {
       cursive: ["Caprasimo", "cursive"],
+      cherry: ["Cherry Bomb One", "cursive"],
       sans: ["Inter", "sans-serif"],
     },
     extend: {

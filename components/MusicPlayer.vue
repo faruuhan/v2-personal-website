@@ -27,16 +27,16 @@
     </div>
     <div class="grid grid-cols-4 gap-2 px-4 py-3">
       <div class="w-16">
-        <img src="~/static/player/pajama.jpg" class="rounded-xl" alt="" />
+        <nuxt-img src="/player/pajama.jpg" class="rounded-xl" alt="" />
       </div>
       <div class="w-16">
-        <img src="~/static/player/joykicktears.png" class="rounded-xl" alt="" />
+        <nuxt-img src="/player/joykicktears.png" class="rounded-xl" alt="" />
       </div>
       <div class="w-16">
-        <img src="~/static/player/sakaagari.jpg" class="rounded-xl" alt="" />
+        <nuxt-img src="/player/sakaagari.jpg" class="rounded-xl" alt="" />
       </div>
       <div class="w-16">
-        <img src="~/static/player/greenflash.jpeg" class="rounded-xl" alt="" />
+        <nuxt-img src="/player/greenflash.jpeg" class="rounded-xl" alt="" />
       </div>
     </div>
     <div class="absolute top-3 right-3">

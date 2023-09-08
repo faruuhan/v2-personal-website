@@ -39,6 +39,13 @@
     <div class="col-span-4 row-span-2">
       <InstagramHighlight />
     </div>
+    <div class="col-span-2 row-span-2">
+      <div
+        class="flex items-center justify-center h-full bg-gradient-to-b from-orange-400 to-orange-300 rounded-2xl"
+      >
+        <h3 class="text-4xl text-white font-cherry">ファ<br />ルハ<br />ン</h3>
+      </div>
+    </div>
   </div>
 </template>
 

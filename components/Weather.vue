@@ -22,7 +22,7 @@
     />
     <img
       src="~/static/days/cloudy.png"
-      class="absolute bottom-3 w-14 right-2 animate-fadeIn"
+      class="absolute top-3 w-14 right-2 animate-fadeIn"
       alt=""
       v-if="time === 'Morning'"
     />
