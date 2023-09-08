@@ -3,7 +3,15 @@
     <div
       class="flex items-center gap-3 px-4 py-2 bg-gradient-to-t from-rose-500 to-rose-400 drop-shadow-md rounded-t-2xl w-fulll"
     >
-      <div class="w-12">
+      <div class="w-12 h-12 aspect-square rounded-xl bg-gray-50/70"></div>
+      <div class="w-40">
+        <p
+          class="overflow-hidden font-sans font-medium tracking-wider text-white whitespace-nowrap text-ellipsis"
+        >
+          No Recently Played Music
+        </p>
+      </div>
+      <!-- <div class="w-12">
         <img
           src="~/static/player/greenflash.jpeg"
           class="rounded-xl"
@@ -15,7 +23,7 @@
           Green Flash
         </p>
         <p class="font-sans text-sm text-gray-50">JKT48</p>
-      </div>
+      </div> -->
     </div>
     <div class="grid grid-cols-4 gap-2 px-4 py-3">
       <div class="w-16">
@@ -31,7 +39,7 @@
         <img src="~/static/player/greenflash.jpeg" class="rounded-xl" alt="" />
       </div>
     </div>
-    <div class="absolute top-4 right-4">
+    <div class="absolute top-3 right-3">
       <svg
         role="img"
         width="25"
