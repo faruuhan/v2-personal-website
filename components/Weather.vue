@@ -2,9 +2,12 @@
   <div
     class="relative p-4 overflow-hidden rounded-2xl aspect-square"
     :class="{
-      'bg-gradient-to-b from-cyan-800 to-cyan-700': time === 'Night',
-      'bg-gradient-to-b from-sky-400 to-sky-300': time === 'Morning',
-      'bg-gradient-to-b from-orange-400 to-orange-300': time === 'Afternoon',
+      'bg-gradient-to-b from-cyan-800 to-cyan-700 animate-fadeIn':
+        time === 'Night',
+      'bg-gradient-to-b from-sky-400 to-sky-300 animate-fadeIn':
+        time === 'Morning',
+      'bg-gradient-to-b from-orange-400 to-orange-300 animate-fadeIn':
+        time === 'Afternoon',
     }"
   >
     <h4 class="text-2xl text-white font-cursive">Good</h4>
@@ -19,7 +22,7 @@
     />
     <img
       src="~/static/days/cloudy.png"
-      class="absolute bottom-3 w-14 right-2"
+      class="absolute bottom-3 w-14 right-2 animate-fadeIn"
       alt=""
       v-if="time === 'Morning'"
     />

@@ -7,8 +7,8 @@
 
     <p class="text-xl font-cursive">hello, i'm faruuhan</p>
     <p class="font-sans">
-      I am a software engineer, specifically as a front end developer. Work with
-      javascript tech stack like React and Vue.
+      I am a software engineer, specifically as a front-end developer using Vue
+      with NuxtJS framework.
     </p>
   </div>
 </template>
