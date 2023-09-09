@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center justify-center min-h-screen bg-lime-50">
+  <div class="flex items-center justify-center min-h-screen bg-white-50">
     <div class="px-4">
       <h4 class="text-4xl text-center font-cursive text-zinc-700">Sorry!</h4>
       <p class="font-sans text-center text-gray-400">

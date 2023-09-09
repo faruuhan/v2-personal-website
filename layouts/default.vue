@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-gradient-to-tr from-lime-100 to-lime-50">
+  <div class="min-h-screen bg-gradient-to-tr from-white to-lime-50">
     <template v-if="isReady">
       <nuxt-child />
       <p class="mt-5 font-sans text-sm font-light text-center text-zinc-400">
