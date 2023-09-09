@@ -5,7 +5,9 @@
       <p class="font-sans text-center text-gray-700">
         Your device isn't support, because your device screen less than 1024px.
         Please access from desktop or tablet.
-        <NuxtLink to="/" class="font-sans text-blue-700 hover:text-blue-500"
+        <NuxtLink
+          to="/"
+          class="font-sans font-semibold text-blue-700 hover:text-blue-500 hover:underline"
           >back to homepage</NuxtLink
         >
       </p>
