@@ -1,11 +1,12 @@
 <template>
-  <div class="min-h-screen bg-gradient-to-tr from-white to-lime-50">
-    <template v-if="isReady">
-      <nuxt-child />
-      <p class="mt-5 font-sans text-sm font-light text-center text-zinc-400">
-        © 2023 made with <span class="text-pink-500">❤</span> by faruuhan
-      </p>
-    </template>
+  <div
+    class="min-h-screen bg-gradient-to-tr from-white to-lime-50"
+    v-if="isReady"
+  >
+    <nuxt-child />
+    <p class="mt-5 font-sans text-sm font-light text-center text-zinc-400">
+      © 2023 made with <span class="text-pink-500">❤</span> by faruuhan
+    </p>
   </div>
 </template>
 

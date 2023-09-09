@@ -3,10 +3,10 @@
     <div class="px-4">
       <h4 class="text-4xl text-center font-cursive text-zinc-700">Sorry!</h4>
       <p class="font-sans text-center text-gray-400">
-        your device not support, because your device screen less than 1024px.
-        please access with desktop or tablet.
-        <a href="/" class="font-sans text-gray-500 hover:text-gray-300"
-          >back to homepage</a
+        Your device isn't support, because your device screen less than 1024px.
+        Please access from desktop or tablet.
+        <NuxtLink to="/" class="font-sans text-gray-500 hover:text-gray-300"
+          >back to homepage</NuxtLink
         >
       </p>
     </div>
