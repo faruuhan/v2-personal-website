@@ -2,21 +2,20 @@
   <div
     class="relative p-4 overflow-hidden rounded-2xl aspect-square"
     :class="{
-      'bg-gradient-to-b from-cyan-800 to-cyan-700 animate-fadeIn':
-        time === 'Night',
-      'bg-gradient-to-b from-sky-400 to-sky-300 animate-fadeIn':
-        time === 'Morning',
-      'bg-gradient-to-b from-orange-400 to-orange-300 animate-fadeIn':
-        time === 'Afternoon',
+      'bg-gradient-to-b from-cyan-800 to-cyan-700': time === 'Night',
+      'bg-gradient-to-b from-sky-400 to-sky-300': time === 'Morning',
+      'bg-gradient-to-b from-orange-400 to-orange-300': time === 'Afternoon',
     }"
   >
     <h4 class="text-2xl text-white font-cursive">Good</h4>
-    <h2 class="relative z-10 text-2xl text-white break-words font-cursive">
+    <h2
+      class="relative z-10 text-2xl text-white break-words font-cursive animate-fadeIn"
+    >
       {{ time }}!
     </h2>
     <nuxt-img
       src="/days/moon.png"
-      class="absolute -top-3 right-2"
+      class="absolute -top-3 right-2 animate-fadeIn"
       width="56"
       height="56"
       alt="Night"
@@ -32,7 +31,7 @@
     />
     <img
       src="/days/sun.png"
-      class="absolute z-0 top-3 right-2"
+      class="absolute z-0 top-3 right-2 animate-fadeIn"
       width="56"
       height="56"
       alt="Afternoon"
