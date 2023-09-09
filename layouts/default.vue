@@ -2,9 +2,9 @@
   <div class="min-h-screen bg-gradient-to-tr from-lime-100 to-lime-50">
     <template v-if="isReady">
       <nuxt-child />
-      <h5 class="mt-5 font-sans text-sm font-light text-center text-zinc-400">
+      <p class="mt-5 font-sans text-sm font-light text-center text-zinc-400">
         © 2023 made with <span class="text-pink-500">❤</span> by faruuhan
-      </h5>
+      </p>
     </template>
   </div>
 </template>

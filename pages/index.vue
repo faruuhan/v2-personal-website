@@ -25,8 +25,10 @@
     <div class="col-span-2 row-span-2">
       <div class="flex items-end px-4 bg-yellow-200 rounded-2xl aspect-square">
         <div class="mb-4">
-          <h3 class="text-xl text-orange-500 font-cursive">Hi,</h3>
-          <h3 class="text-xl text-orange-500 font-cursive">There!</h3>
+          <h3 class="text-xl text-orange-500 font-cursive">
+            Hi, <br />
+            There!
+          </h3>
         </div>
       </div>
     </div>
@@ -43,7 +45,7 @@
       <div
         class="flex items-center justify-center h-full bg-gradient-to-b from-orange-400 to-orange-300 rounded-2xl"
       >
-        <h3 class="text-4xl text-white font-cherry">ファ<br />ルハ<br />ン</h3>
+        <h4 class="text-4xl text-white font-cherry">ファ<br />ルハ<br />ン</h4>
       </div>
     </div>
   </div>
