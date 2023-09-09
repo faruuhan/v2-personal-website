@@ -30,6 +30,7 @@
         <nuxt-img
           src="/player/pajama.jpg"
           width="64"
+          hight="64"
           class="rounded-xl"
           alt=""
         />
@@ -38,6 +39,7 @@
         <nuxt-img
           src="/player/joykicktears.png"
           width="64"
+          hight="64"
           class="rounded-xl"
           alt=""
         />
@@ -46,6 +48,7 @@
         <nuxt-img
           src="/player/sakaagari.jpg"
           width="64"
+          hight="64"
           class="rounded-xl"
           alt=""
         />
@@ -54,6 +57,7 @@
         <nuxt-img
           src="/player/greenflash.jpeg"
           width="64"
+          hight="64"
           class="rounded-xl"
           alt=""
         />
