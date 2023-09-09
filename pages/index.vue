@@ -25,7 +25,7 @@
     <div class="col-span-2 row-span-2">
       <div class="flex items-end px-4 bg-yellow-200 rounded-2xl aspect-square">
         <div class="mb-4">
-          <h3 class="text-xl text-orange-600 font-cursive">
+          <h3 class="text-3xl text-orange-600 font-cursive">
             Hi, <br />
             There!
           </h3>

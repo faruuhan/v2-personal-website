@@ -14,22 +14,28 @@
     <h2 class="relative z-10 text-2xl text-white break-words font-cursive">
       {{ time }}!
     </h2>
-    <img
-      src="~/static/days/moon.png"
-      class="absolute -top-3 w-14 right-2"
-      alt=""
+    <nuxt-img
+      src="/days/moon.png"
+      class="absolute -top-3 right-2"
+      width="56"
+      height="56"
+      alt="Night"
       v-if="time === 'Night'"
     />
     <img
-      src="~/static/days/cloudy.png"
-      class="absolute top-3 w-14 right-2 animate-fadeIn"
-      alt=""
+      src="/days/cloudy.png"
+      class="absolute top-3 right-2 animate-fadeIn"
+      width="56"
+      height="56"
+      alt="Morning"
       v-if="time === 'Morning'"
     />
     <img
-      src="~/static/days/sun.png"
-      class="absolute z-0 top-3 w-14 right-2"
-      alt=""
+      src="/days/sun.png"
+      class="absolute z-0 top-3 right-2"
+      width="56"
+      height="56"
+      alt="Afternoon"
       v-if="time === 'Afternoon'"
     />
   </div>

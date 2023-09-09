@@ -2,7 +2,13 @@
   <div class="h-full p-4 bg-white rounded-2xl drop-shadow-xl">
     <h3 class="text-lg font-cursive">Summary</h3>
     <div class="flex justify-end">
-      <img src="~/static/profile.png" class="w-20 rotate-[17deg]" alt="" />
+      <nuxt-img
+        src="/profile.png"
+        width="80"
+        height="80"
+        class="rotate-[17deg]"
+        alt=""
+      />
     </div>
 
     <p class="text-xl font-cursive">hello, i'm faruuhan</p>
