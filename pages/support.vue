@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-center justify-center min-h-screen bg-lime-50">
     <div class="px-4">
-      <h3 class="text-4xl text-center font-cursive text-zinc-700">Sorry!</h3>
+      <h4 class="text-4xl text-center font-cursive text-zinc-700">Sorry!</h4>
       <p class="font-sans text-center text-gray-400">
         your device not support, because your device screen less than 1024px.
         please access with desktop or tablet.

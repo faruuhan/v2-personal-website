@@ -5,7 +5,7 @@
       class="absolute top-0 z-10 flex flex-col justify-end w-full h-full bg-zinc-950/40"
     >
       <div class="px-4 mb-4">
-        <h6 class="font-sans text-lg font-medium text-white">Indah Cahya ❤️</h6>
+        <h4 class="font-sans text-lg font-medium text-white">Indah Cahya ❤️</h4>
         <div class="flex gap-2">
           <svg
             role="img"
