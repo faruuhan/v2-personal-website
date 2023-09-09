@@ -1,6 +1,13 @@
 <template>
   <div class="relative overflow-hidden bg-white h-36 rounded-2xl">
-    <nuxt-img src="/picture/indah.jpg" class="z-0 -mt-5" alt="" />
+    <nuxt-img
+      src="/picture/indah.jpg"
+      class="z-0 -mt-5"
+      width="auto"
+      hight="auto"
+      alt="indah"
+      preload
+    />
     <div
       class="absolute top-0 z-10 flex flex-col justify-end w-full h-full bg-zinc-950/40"
     >
