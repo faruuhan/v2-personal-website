@@ -26,17 +26,37 @@
       </div> -->
     </div>
     <div class="grid grid-cols-4 gap-2 px-4 py-3">
-      <div class="w-16">
-        <nuxt-img src="/player/pajama.jpg" class="rounded-xl" alt="" />
+      <div>
+        <nuxt-img
+          src="/player/pajama.jpg"
+          width="64"
+          class="rounded-xl"
+          alt=""
+        />
       </div>
-      <div class="w-16">
-        <nuxt-img src="/player/joykicktears.png" class="rounded-xl" alt="" />
+      <div>
+        <nuxt-img
+          src="/player/joykicktears.png"
+          width="64"
+          class="rounded-xl"
+          alt=""
+        />
       </div>
-      <div class="w-16">
-        <nuxt-img src="/player/sakaagari.jpg" class="rounded-xl" alt="" />
+      <div>
+        <nuxt-img
+          src="/player/sakaagari.jpg"
+          width="64"
+          class="rounded-xl"
+          alt=""
+        />
       </div>
-      <div class="w-16">
-        <nuxt-img src="/player/greenflash.jpeg" class="rounded-xl" alt="" />
+      <div>
+        <nuxt-img
+          src="/player/greenflash.jpeg"
+          width="64"
+          class="rounded-xl"
+          alt=""
+        />
       </div>
     </div>
     <div class="absolute top-3 right-3">
