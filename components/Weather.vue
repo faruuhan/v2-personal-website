@@ -21,7 +21,7 @@
       alt="Night"
       v-if="time === 'Night'"
     />
-    <img
+    <nuxt-img
       src="/days/cloudy.png"
       class="absolute top-3 right-2 animate-fadeIn"
       width="56"
@@ -29,7 +29,7 @@
       alt="Morning"
       v-if="time === 'Morning'"
     />
-    <img
+    <nuxt-img
       src="/days/sun.png"
       class="absolute z-0 top-3 right-2 animate-fadeIn"
       width="56"
