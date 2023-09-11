@@ -15,7 +15,7 @@
     </h2>
     <nuxt-img
       src="/days/moon.png"
-      class="absolute -top-3 right-2 animate-fadeIn"
+      class="absolute -top-3 right-2 animate-slideInDown"
       width="56"
       height="56"
       alt="Night"
@@ -23,7 +23,7 @@
     />
     <nuxt-img
       src="/days/cloudy.png"
-      class="absolute top-3 right-2 animate-fadeIn"
+      class="absolute top-3 right-2 animate-slideInRight"
       width="56"
       height="56"
       alt="Morning"
@@ -31,7 +31,7 @@
     />
     <nuxt-img
       src="/days/sun.png"
-      class="absolute z-0 top-3 right-2 animate-fadeIn"
+      class="absolute z-0 top-3 right-2 animate-slideInRight"
       width="56"
       height="56"
       alt="Afternoon"
